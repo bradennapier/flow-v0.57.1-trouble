@@ -4,5 +4,12 @@
   "main": "index.js",
   "author": "gin0606 <kkgn06@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps inline"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1"
+  }
 }
