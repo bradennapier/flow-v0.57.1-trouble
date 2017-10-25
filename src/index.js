@@ -1,5 +1,5 @@
 // @flow
-import bar from './foo/bar';
+import bar from 'foo/bar';
 
 let num: number = 1;
 let numerror: number = 'string';
